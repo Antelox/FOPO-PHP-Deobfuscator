@@ -13,6 +13,8 @@ Coded by Antelox
 Twitter: @Antelox
 UIC R.E. Academy - quequero.org
 
+Copyright (C) 2016 - MIT License
+
 *Python script version*
 
 This code works fine for the last version of FOPO PHP Obfuscator.
