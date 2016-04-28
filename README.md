@@ -16,3 +16,5 @@ You can deobfuscate indeed your own obfuscated PHP file online here:
 https://glot.io/snippets/ee5mzg3zf1
 
 Paste the obfuscated PHP file content inside _obfuscated.php_ file, then click _Run_ and you will see the deobfuscated PHP code (I hope :P).
+
+See the LICENSE.md file for license rights and limitations (MIT).
