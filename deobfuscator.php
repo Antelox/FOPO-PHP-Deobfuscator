@@ -13,6 +13,8 @@ Coded by Antelox
 Twitter: @Antelox
 UIC R.E. Academy - quequero.org
 
+Copyright (C) 2016 - MIT License
+
 *PHP script version*
 
 Online version: https://glot.io/snippets/ee5mzg3zf1
