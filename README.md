@@ -13,7 +13,13 @@ In this case the deobfuscated PHP code will be echo-ed because the PHP version o
 
 You can deobfuscate indeed your own obfuscated PHP file online here:
 
+_ver. 0.1_
+
 https://glot.io/snippets/ee5mzg3zf1
+
+_ver. 0.2_
+
+https://glot.io/snippets/efruafhnez
 
 Paste the obfuscated PHP file content inside _obfuscated.php_ file, then click _Run_ and you will see the deobfuscated PHP code (I hope :P).
 
