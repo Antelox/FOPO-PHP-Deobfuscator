@@ -54,6 +54,8 @@ if len(sys.argv) > 1:
 		print "*ERROR: Provided a PHP script not obfuscated with FOPO PHP Obfuscator!"
 		sys.exit()
 
+	contents = re.sub('//?\s*\*[\s\S]*?\*\s*//?', '', contents)
+	
 	eval = contents.split('(')
 	
 	#base64 = base64 encoded block inside obfuscated PHP script
