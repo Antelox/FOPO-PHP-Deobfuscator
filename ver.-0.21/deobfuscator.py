@@ -2,8 +2,8 @@
 
 __description__ = 'Deobfuscator script for FOPO PHP obfuscated files'
 __author__ = 'Antelox'
-__version__ = '0.2'
-__date__ = '06/19/2016'
+__version__ = '0.21'
+__date__ = '01/28/2017'
 
 """
 
@@ -13,7 +13,7 @@ Coded by Antelox
 Twitter: @Antelox
 UIC R.E. Academy - quequero.org
 
-Copyright (C) 2016 - MIT License
+Copyright (C) 2017 - MIT License
 
 *Python script version*
 
