@@ -37,6 +37,7 @@ if (preg_match('/Obfuscation provided by FOPO - Free Online PHP Obfuscator:/',$c
 	exit;
 }
 
+$contents = preg_replace('/\/\/?\s*\*[\s\S]*?\*\s*\/\/?/', '', $contents);
 $eval = explode('(',$contents);
 
 //$base64 = base64 encoded block inside obfuscated PHP script
