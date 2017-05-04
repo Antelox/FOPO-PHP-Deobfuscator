@@ -6,8 +6,8 @@ FOPO PHP Deobfuscator script
 
 Description: Deobfuscator script for FOPO PHP obfuscated files
 Author: Antelox
-Version: 0.21
-Date: 01/28/2017
+Version: 0.22
+Date: 05/04/2017
 
 Coded by Antelox
 Twitter: @Antelox
@@ -65,11 +65,11 @@ while (!preg_match('/\?\>/',$encodedlayer)) {
 	    $nextlayer = gzinflate(base64_decode($dl[5]));
 	    $encodedlayer = $nextlayer;
 	}
-	
+
 }
 
-//here $final[1] variable contains deobfuscated PHP code :D
-$final = explode("?>",$encodedlayer);
-echo $final[1];
+//here the deobfuscated PHP code it's printed :D
+
+echo substr($encodedlayer, strpos($encodedlayer, '?>') + 2, strlen($encodedlayer));
 
 ?>
